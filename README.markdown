@@ -1,14 +1,9 @@
-By default Diem brings you a flavored Markdown editor.
-But sometimes, the customer wants a WYSIWYG...
+Sometimes, we want to be able to change some symfony config from the admin panel.
 
-So this plugin integrates the best open source editor: [CkEditor](http://ckeditor.com/ "").
-
-Currently only admin forms can receive ckEditors.
-Later, this plugin will be updated with a front ckEditorWidget.
-
-The plugin is fully extensible. Only works with [Diem 5.0](http://diem-project.org/) installed.
+This very simple plugin allows you to override any sfConfig app_* from the System > Configuration > Settings panel.
+You just have to create a new setting starting with the app_ prefix.
 
 Documentation
 -------------
 
-See the online documentation : [Diem ckEditor plugin documentation](http://diem-project.org/plugins/dmckeditorplugin)
+See the online documentation : [Diem configOverrider plugin documentation](http://diem-project.org/plugins/dmconfigoverriderplugin)
